@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  height: 40px;
+  min-height: 50px;
+  border-radius: 4px;
+}
+
+.info-block {
+  width: 100%;
+  font-weight: 500;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-warning {
+  height: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.main-input {
+  max-width: 200px;
+}
+
+.avatar {
+  border-radius: 100%;
+  background-color: #17a2b8;
+  color: white;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+#send-btn {
+  font-size: 1.2rem;
+}
+
+#message {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.dropdown-menu.show {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1080px;
+  transform: translate3d(0px, 65px, 0px) !important;
+}
+
+.dropdown-item {
+  text-align: center;
+  font-size: 1.589rem;
+  width: auto;
+}
+
+#fontSize {
+  outline: none;
+  font-size: 16px;
+  width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown-item {
+    font-size: 1.2rem;
+  }
+
+  #messages {
+    margin: auto 0px auto 0px;
+  }
+
+  #input-group {
+    margin: auto 0px auto 0px;
+  }
+  .header {
+    flex-direction: column;
+  }
+
+  .header h1 {
+    font-size: 2.1rem;
+  }
+
+  .setting {
+    margin-top: 7px;
+  }
+  #warning-block {
+    font-size: 1rem;
+  }
+  .dropdown-menu.show {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    transform: translate3d(0px, -275px, 0px) !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #warning-block {
+    font-size: 0.8rem;
+  }
+  .dropdown-menu.show {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    transform: translate3d(0px, -385px, 0px) !important;
+  }
+  #nickname {
+    font-size: 1.2rem;
+  }
+  .avatar {
+    font-size: 1.3rem;
+    height: 50px;
+    width: 50px;
+    padding-bottom: 3px;
+  }
+  #message {
+    font-size: 0.9rem;
+  }
+  #send-btn {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #warning-block {
+    font-size: 0.7rem;
+  }
+  .dropdown-menu.show {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    transform: translate3d(0px, -495px, 0px) !important;
+  }
+}
