@@ -3,6 +3,7 @@ administrator/
 admin1/
 admin2/
 admin3/
+Login2.aspx
 admin4/
 admin5/
 usuarios/
